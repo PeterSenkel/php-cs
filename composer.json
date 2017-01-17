@@ -1,0 +1,15 @@
+{
+    "name": "rebuy/php-cs",
+    "description": "PHP Coding style configuration for reBuy projects",
+    "type": "library",
+    "require": {
+        "friendsofphp/php-cs-fixer": "^2.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Martin Parsiegla",
+            "email": "mp@rebuy.com"
+        }
+    ]
+}
