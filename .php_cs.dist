@@ -1,0 +1,20 @@
+<?php
+
+$config = PhpCsFixer\Config::create();
+$config->setRules([
+    '@Symfony' => true,
+    '@Symfony:risky' => true,
+    'ordered_imports' => true,
+    'phpdoc_align' => false,
+    'phpdoc_no_alias_tag' => ['type' => 'var'],
+    'array_syntax' => ['syntax' => 'short'],
+    'linebreak_after_opening_tag' => true,
+    'concat_space' => ['spacing' => 'one'],
+    'no_useless_else' => true,
+    'no_useless_return' => true,
+    'phpdoc_add_missing_param_annotation' => true,
+    'psr4' => true,
+]);
+$config->setRiskyAllowed(true);
+
+return $config;
